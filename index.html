@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Build Beyond | GDG on Campus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080b16;--panel:#111a30;--ink:#f5f7ff;--muted:#a4aec5;--line:#2a3550;--blue:#819cff;--cyan:#68e1dc;--lime:#d4f36a}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope, sans-serif;background-image:linear-gradient(#819cff0b 1px,transparent 1px),linear-gradient(90deg,#819cff0b 1px,transparent 1px);background-size:52px 52px}.wrap{width:min(1080px,calc(100% - 40px));margin:auto}a{color:inherit;text-decoration:none}nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:-1px}.brand small{display:block;font:10px 'DM Mono';color:var(--muted);letter-spacing:2px}.mark{display:inline-grid;place-items:center;width:34px;height:34px;border:1px solid #7285bb;border-radius:10px;color:var(--lime);margin-right:9px}.links{display:flex;gap:25px;color:var(--muted);font-size:12px}.btn{display:inline-block;padding:13px 19px;border-radius:30px;background:var(--lime);color:#11160b;font-size:12px;font-weight:800}.hero{min-height:570px;padding:85px 0 70px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:35px}.eyebrow,.kicker{font:11px 'DM Mono';letter-spacing:2px;color:var(--cyan);text-transform:uppercase}.eyebrow:before{content:'●';color:var(--lime);margin-right:10px}h1{font-size:clamp(58px,8vw,88px);line-height:.94;letter-spacing:-7px;margin:22px 0}.accent{color:var(--blue)}.lead{max-width:510px;color:var(--muted);font-size:15px;line-height:1.85}.actions{display:flex;align-items:center;gap:22px;margin-top:28px}.plain{font-size:12px}.meta{display:flex;gap:28px;border-top:1px solid var(--line);margin-top:43px;padding-top:20px}.meta label{display:block;color:#8491ad;font:10px 'DM Mono';text-transform:uppercase}.meta b{display:block;font-size:12px;margin-top:7px}.art{height:380px;display:grid;place-items:center;position:relative}.orb{width:300px;height:300px;border-radius:50%;background:radial-gradient(circle at 32% 27%,#c3fff0,#7399f4 17%,#273d7e 48%,#10182e 70%);box-shadow:0 0 100px #6888ee33,inset -25px -20px 50px #050812;position:relative;animation:float 7s ease-in-out infinite}.orb:before,.orb:after{content:'';position:absolute;inset:-10%;border:1px solid #9eb2ff88;border-radius:50%;transform:scaleY(.36) rotate(-25deg)}.orb:after{inset:8%;transform:scaleY(.36) rotate(55deg);border-color:#68e1dc99}.float{position:absolute;background:#111a30eF;border:1px solid #52658b;border-radius:12px;padding:12px 15px;font-size:11px;box-shadow:0 12px 35px #0007}.float b{display:block;color:var(--lime);font:10px 'DM Mono';margin-bottom:5px}.f1{top:28px;right:0}.f2{bottom:35px;left:0}.f3{right:0;bottom:75px}@keyframes float{50%{transform:translateY(-12px) rotate(3deg)}}.ticker{text-align:center;border-block:1px solid var(--line);padding:16px;color:#8e9ab4;font:10px 'DM Mono';letter-spacing:3px}section{padding:78px 0}.head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:30px}h2{font-size:clamp(34px,5vw,48px);letter-spacing:-3px;line-height:1.05;margin:12px 0}.copy{max-width:390px;color:var(--muted);font-size:12px;line-height:1.8}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{padding:24px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#17213b,#0e1425);min-height:190px}.num{font:11px 'DM Mono';color:var(--lime)}h3{font-size:18px;margin:27px 0 9px}.card p,.speaker p{font-size:12px;line-height:1.8;color:var(--muted);margin:0}.agenda{border-top:1px solid var(--line)}.item{display:grid;grid-template-columns:110px 1fr auto;gap:20px;align-items:center;padding:20px 5px;border-bottom:1px solid var(--line)}.time{font:11px 'DM Mono';color:var(--cyan)}.item h3{margin:0 0 5px;font-size:15px}.item p{margin:0;color:var(--muted);font-size:11px}.tag{font:10px 'DM Mono';border:1px solid #455575;color:#c2cde6;border-radius:30px;padding:7px 10px}.speaker{display:grid;grid-template-columns:.65fr 1.35fr;gap:30px;align-items:center;padding:30px;border:1px solid #3c4e76;border-radius:20px;background:linear-gradient(110deg,#1b2b50,#11182a)}.portrait{height:190px;border-radius:14px;background:radial-gradient(circle at 50% 30%,#d3fff1,#6c8be2 30%,#1a2a50 70%);display:grid;place-items:center;font-size:60px}.role{font:10px 'DM Mono';color:var(--lime);letter-spacing:1px}.speaker h3{font-size:27px;margin:9px 0}.cta{text-align:center;padding:45px 20px;border:1px solid #4b6090;border-radius:20px;background:radial-gradient(ellipse at 80% 0,#415ba566,transparent 50%),#111a30}.cta p{max-width:510px;margin:15px auto 25px;color:var(--muted);font-size:12px;line-height:1.8}footer{padding:25px 0 35px;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:#8490a8;font-size:10px}@media(max-width:760px){.links{display:none}.hero{grid-template-columns:1fr;padding:60px 0 35px}.art{height:320px}.orb{width:250px;height:250px}.head{display:block}.copy{margin-top:15px}.cards{grid-template-columns:1fr}.card{min-height:150px}.card h3{margin-top:18px}.speaker{grid-template-columns:1fr}.portrait{height:150px}.item{grid-template-columns:78px 1fr;gap:12px}.tag{grid-column:2;justify-self:start}.meta{gap:14px;flex-wrap:wrap}footer{display:block}footer span{display:block;margin:7px 0}}@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+
+/* Animated interactive tile-grid backdrop */
+.grid-backdrop{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;opacity:.78}
+.grid-backdrop:before{content:"";position:absolute;inset:-5%;background:
+  radial-gradient(ellipse 38% 48% at var(--mx,52%) var(--my,36%),rgba(104,225,220,.32),transparent 72%),
+  radial-gradient(ellipse 28% 38% at calc(var(--mx,52%) + 12%) calc(var(--my,36%) + 42%),rgba(129,156,255,.20),transparent 75%);
+  filter:blur(22px);transition:background-position .2s ease}
+.tile-grid{position:absolute;inset:0;display:grid;grid-template-columns:repeat(48,1fr);grid-auto-rows:22px;gap:4px;padding:4px;mask-image:linear-gradient(to bottom,black 0%,black 68%,transparent 100%)}
+.tile{background:rgba(83,121,145,.20);border:1px solid rgba(114,165,181,.08);transition:background .45s ease,transform .45s ease,opacity .45s ease;animation:gridPulse 7s ease-in-out infinite;animation-delay:var(--delay,0s)}
+.tile:nth-child(7n){animation-duration:9s}.tile:nth-child(11n){animation-duration:6s}
+@keyframes gridPulse{0%,100%{opacity:.48;transform:translateY(0);background-color:rgba(83,121,145,.18)}50%{opacity:.88;transform:translateY(-1px);background-color:rgba(104,225,220,.34)}}
+@media(max-width:760px){.tile-grid{grid-template-columns:repeat(24,1fr);grid-auto-rows:19px;gap:3px}.grid-backdrop{opacity:.55}}
+@media(prefers-reduced-motion:reduce){.tile{animation:none!important;transition:none!important}}
+
+/* Animated pixel-grid atmosphere inspired by the supplied portfolio reference */
+body{position:relative;isolation:isolate;background:#080b12}
+#gridfield{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;opacity:.92}
+#gridfield canvas{width:100%;height:100%;display:block}
+body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 50% 42%,transparent 0%,rgba(5,8,15,.18) 48%,rgba(5,8,15,.76) 100%)}
+nav,.hero,.ticker,section,footer{position:relative}
+.hero{isolation:isolate}
+.hero:before{content:"";position:absolute;z-index:-1;inset:-25px -18px;border-radius:28px;background:linear-gradient(90deg,rgba(8,11,22,.88),rgba(8,11,22,.46) 62%,transparent);pointer-events:none}
+.card,.speaker,.cta{backdrop-filter:blur(9px)}
+@media(prefers-reduced-motion:reduce){#gridfield{display:none}}
+
+
+/* Final polish: prevent the brand sub-label from being clipped and sharpen navigation */
+nav{min-height:88px;height:auto;padding:14px 0;overflow:visible;align-items:center}
+.brand{display:flex;align-items:center;gap:10px;line-height:1.15;white-space:nowrap;font-size:18px;overflow:visible}
+.brand .mark{flex:0 0 38px;width:38px;height:38px;margin:0;font-size:18px}
+.brand small{display:block;line-height:1.45;margin-top:5px;font-size:11px;letter-spacing:3px;white-space:nowrap;color:#aebbd5}
+.links{align-items:center;gap:30px}
+.links a{display:inline-block;padding:9px 2px;color:#b8c3d8;font-size:14px;font-weight:600;position:relative;transition:color .12s ease out,transform .12s ease out,text-shadow .12s ease out}.links a:after {
+  transition: right 0.12s ease-out;
+}
+.links a:after{content:"";position:absolute;left:0;right:100%;bottom:2px;height:1px;background:#fff;box-shadow:0 0 9px #fff;transition:right .12s ease}
+.links a:hover,.links a:focus-visible{color:#fff;transform:translateY(-3px);text-shadow:0 0 8px #fff9,0 0 20px #b9d5ff88;outline:none}
+.links a:hover:after,.links a:focus-visible:after{right:0}
+footer{font-size:12px;line-height:1.6}
+footer span{padding:3px 0}
+@media(max-width:760px){
+  nav{min-height:76px;padding:12px 0}
+  .brand{font-size:16px}
+  .brand .mark{flex-basis:34px;width:34px;height:34px}
+  .brand small{font-size:9px;letter-spacing:2.4px}
+}
+@media(prefers-reduced-motion:reduce){.links a,.links a:after{transition:none}}
+
+</style></head><body><div class="grid-backdrop" aria-hidden="true"><div class="tile-grid" id="tileGrid"></div></div><div class="wrap">
+<nav><a class="brand" href="#"><span class="mark">G</span>GDG ON CAMPUS<small>UPES · DEHRADUN</small></a><div class="links"><a href="#about">About</a><a href="#tracks">Explore</a><a href="#agenda">Schedule</a><a href="#speaker">Speaker</a></div><a class="btn" href="#agenda">Explore event ↗</a></nav>
+<main><div class="hero"><div><div class="eyebrow">A GDG ON CAMPUS EXPERIENCE</div><h1>Build<br><span class="accent">Beyond.</span></h1><p class="lead">One day. Big ideas. Real-world building. Step into the intersection of AI, creativity and the web — and turn curiosity into something you can actually ship.</p><div class="actions"><a class="btn" href="#agenda">Discover the experience ↗</a><a class="plain" href="#about">What's this about? ↓</a></div><div class="meta"><div><label>When</label><b>Saturday · 22 Nov 2026</b></div><div><label>Time</label><b>10 AM – 4 PM</b></div><div><label>Where</label><b>UPES · Dehradun</b></div></div></div><div class="art"><div class="orb"></div><div class="float f1"><b>01 / EXPLORE</b>Ideas into prototypes</div><div class="float f2"><b>02 / EXPERIMENT</b>AI × Web × You</div><div class="float f3"><b>03 / BUILD</b>Make something real</div></div></div>
+<div class="ticker">LEARN LOUDLY ✳ BUILD TOGETHER ✳ SHARE WHAT YOU MAKE ✳</div>
+<section id="about"><div class="head"><div><div class="kicker">01 — THE IDEA</div><h2>Curiosity is the<br>starting point.</h2></div><p class="copy">Build Beyond is a sample GDG on Campus event concept. Bring your curiosity, meet fellow builders and explore how emerging tools can turn ideas into useful experiences.</p></div><div class="cards" id="tracks"><article class="card"><div class="num">01 / AI LAB</div><h3>Think with AI</h3><p>Explore generative AI, write better prompts and turn rough ideas into practical workflows.</p></article><article class="card"><div class="num">02 / WEB STUDIO</div><h3>Shape the web</h3><p>Discover modern web experiences, thoughtful interfaces and the details that make products memorable.</p></article><article class="card"><div class="num">03 / BUILD ROOM</div><h3>Make it happen</h3><p>Work through a mini build challenge, share your approach and learn from other creators.</p></article></div></section>
+<section id="agenda"><div class="head"><div><div class="kicker">02 — THE FLOW</div><h2>A day built to<br>move you forward.</h2></div><p class="copy">A sample run-of-show balancing ideas, hands-on exploration and time to connect.</p></div><div class="agenda"><div class="item"><div class="time">10:00 AM</div><div><h3>Doors open & community hello</h3><p>Meet the GDG community and find your people.</p></div><span class="tag">CONNECT</span></div><div class="item"><div class="time">10:30 AM</div><div><h3>Keynote: The builder mindset</h3><p>How to stay curious, experiment and keep shipping.</p></div><span class="tag">INSPIRE</span></div><div class="item"><div class="time">11:30 AM</div><div><h3>AI + Web mini labs</h3><p>Practical demos and guided exploration.</p></div><span class="tag">LEARN</span></div><div class="item"><div class="time">01:30 PM</div><div><h3>Build sprint & show-and-tell</h3><p>Turn one small idea into a shareable prototype.</p></div><span class="tag">CREATE</span></div><div class="item"><div class="time">03:30 PM</div><div><h3>Community wrap-up</h3><p>Share takeaways, next steps and new connections.</p></div><span class="tag">GROW</span></div></div></section>
+<section id="speaker"><div class="speaker"><div class="portrait">✳</div><div><div class="role">FEATURED COMMUNITY SPEAKER · SAMPLE PROFILE</div><h3>Arjun Mehta</h3><p>Developer advocate and product builder passionate about making emerging technology approachable. In this sample session, Arjun shares a practical framework for moving from a promising idea to a working prototype.</p><p style="margin-top:15px"><span class="tag">AI · DEVELOPER TOOLS · PRODUCT THINKING</span></p></div></div></section>
+<section><div class="cta"><div class="kicker">YOUR NEXT IDEA STARTS HERE</div><h2>Come curious.<br>Leave building.</h2><p>Meet the community, explore new tools and make room for your next big idea. Follow GDG on Campus channels for official event announcements and registration.</p><a class="btn" href="#about">Explore the event ↗</a></div></section></main>
+<footer><span><b>GDG ON CAMPUS · UPES</b></span><span>Learn · Build · Connect</span><span>Concept website · Illustrative event details</span></footer></div><script>
+(function(){
+  const grid=document.getElementById('tileGrid');
+  if(grid){
+    const count=window.matchMedia('(max-width:760px)').matches?24:48;
+    const rows=Math.ceil((window.innerHeight+80)/26);
+    for(let i=0;i<count*rows;i++){
+      const tile=document.createElement('i');
+      tile.className='tile';
+      tile.style.setProperty('--delay',(-Math.random()*8).toFixed(2)+'s');
+      grid.appendChild(tile);
+    }
+    let raf=0;
+    window.addEventListener('pointermove',function(e){
+      if(raf)return;
+      raf=requestAnimationFrame(function(){
+        document.documentElement.style.setProperty('--mx',(e.clientX/window.innerWidth*100)+'%');
+        document.documentElement.style.setProperty('--my',(e.clientY/window.innerHeight*100)+'%');
+        raf=0;
+      });
+    },{passive:true});
+  }
+})();
+</script>
+<script>
+(() => {
+  const canvas = document.getElementById('pixel-grid');
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let w = 0, h = 0, dpr = 1, cols = 0, rows = 0, pointer = {x:-1000,y:-1000};
+  const cell = 23, gap = 4;
+  let tick = 0;
+  function resize(){
+    dpr = Math.min(window.devicePixelRatio || 1, 1.6);
+    w = window.innerWidth; h = window.innerHeight;
+    canvas.width = Math.floor(w*dpr); canvas.height = Math.floor(h*dpr);
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    cols = Math.ceil(w/(cell+gap))+1; rows = Math.ceil(h/(cell+gap))+1;
+  }
+  function draw(){
+    ctx.clearRect(0,0,w,h);
+    const step = cell+gap;
+    const cx = pointer.x < 0 ? w*.54 : pointer.x;
+    const cy = pointer.y < 0 ? h*.42 : pointer.y;
+    for(let y=0;y<rows;y++){
+      for(let x=0;x<cols;x++){
+        const px=x*step+8, py=y*step+2;
+        const dx=px-cx, dy=py-cy, dist=Math.sqrt(dx*dx+dy*dy);
+        const wave=Math.sin((x*.20+y*.12)-tick*.018);
+        const halo=Math.max(0,1-dist/Math.min(w*.62,650));
+        const band=Math.max(0,1-Math.abs(dist-(150+Math.sin(tick*.012)*42))/125);
+        const glow=Math.min(1, .10+halo*.52+band*.30+Math.max(0,wave)*.07);
+        const hue=178+Math.max(0,wave)*18;
+        ctx.fillStyle=`hsla(${hue},${35+glow*35}%,${12+glow*48}%,${.42+glow*.55})`;
+        ctx.fillRect(px,py,cell,cell);
+        if(glow>.48){
+          ctx.shadowColor=`hsla(${hue},85%,65%,.32)`;
+          ctx.shadowBlur=10*glow;
+          ctx.fillRect(px,py,cell,cell);
+          ctx.shadowBlur=0;
+        }
+      }
+    }
+    if(!reduceMotion){tick++;requestAnimationFrame(draw)}
+  }
+  window.addEventListener('resize',resize,{passive:true});
+  window.addEventListener('pointermove',e=>{pointer.x=e.clientX;pointer.y=e.clientY},{passive:true});
+  window.addEventListener('pointerleave',()=>{pointer.x=-1000;pointer.y=-1000});
+  resize(); draw();
+})();
+</script>
+
+</body></html>
